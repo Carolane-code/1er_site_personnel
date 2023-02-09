@@ -1,0 +1,333 @@
+h1 {
+   font-family: 'Dancing Script', sans-serif;
+}
+
+body {
+   font-family: 'Kalam', sans-serif;
+   margin: 0;
+   width: 100%;
+   overflow-x:hidden;
+}
+
+ul {
+   font-family: 'Kalam', sans-serif;
+   margin: 0;
+   padding: 0;
+}
+
+li {
+   font-family: 'Kalam', sans-serif;
+   list-style-type: none;
+}
+
+h2 {
+   font-family: 'Dancing Script', sans-serif;
+   text-align: center;
+}
+
+a {
+   text-decoration: none;
+   color: black;
+}
+
+/* navbar */
+nav {
+
+   overflow: hidden;
+   background-color: #E4CDA7;
+   position: fixed;
+   width: 100%;
+   opacity: 0.6;
+}
+
+header li {
+   float: right;
+   font-size: 1.1em;
+}
+
+header li a {
+   font-family: 'Kalam', sans-serif;
+   text-decoration: none;
+   display: block;
+   text-align: center;
+   padding: 18px 16px;
+}
+
+#logo {
+   font-family: 'Dancing Script', sans-serif;
+   font-style: oblique;
+   font-weight: bold;
+   float: left;
+   font-size: 1.em;
+}
+
+/* image principal */
+#imgprincipal {
+   padding-top: 60px;
+   background: url(assets/bgplant1.jpg) no-repeat fixed 50% 50%;
+   background-size: cover;
+   height: 85vh;
+   width: 100%;
+}
+
+h1 {
+   font-family: 'Dancing Script', sans-serif;
+   text-align: center;
+   color: #E4CDA7;
+   font-size: 3.5em;
+   margin-top: 120px;
+   text-shadow: 2px 4px 2px rgba(92, 92, 92, 0.646);
+
+}
+
+h3 {
+   font-family: 'Kalam';
+   text-align: center;
+   color: #E4CDA7;
+   font-size: 2.3em;
+   margin-top: 40px;
+   text-shadow: 2px 4px 2px rgba(92, 92, 92, 0.646);
+
+}
+
+#premiertrait {
+   height: 1px;
+   width: 30%;
+   margin: -3px auto;
+   background-color: #E4CDA7;
+   box-shadow: 2px 4px 2px rgba(92, 92, 92, 0.646);
+}
+
+
+/*******presentation*****/
+#presentation {
+   background: rgb(255, 255, 255);
+   background: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, #E4CDA7 100%);
+   height: 120vh;
+   width: 100%;
+}
+
+
+#textintro {
+   text-align: center;
+   padding: 40px 33%;
+   font-size: 1.3em;
+   padding-top: 145px;
+}
+
+#imgpresentation1 {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-content: space-around;
+   
+   
+}
+
+.imgpresentation img {
+   border-radius: 60%;
+   margin: 20px;
+   box-shadow: 2px 6px 4px 6px rgba(92, 92, 92, 0.646);
+}
+
+/*****conseils*****/
+.imgmort {
+   margin-top: -11px;
+   margin-bottom: -40px;
+}
+
+#meurtres {
+   text-align: center;
+   font-size: 1.2em;
+   margin: 20px;
+   
+   padding-top: 50px;
+   padding-bottom: 50px;
+   
+}
+
+#rempoter {
+   background-color: rgba(250, 235, 215, 0.753);
+   border-radius: 10px;
+   margin: 50px;
+   padding: 10px;
+}
+
+#parcimonie {
+   background-color: rgba(221, 207, 190, 0.767);
+   border-radius: 10px;
+   margin: 50px;
+   padding: 10px;
+}
+
+#Connaitre {
+   background-color: rgba(192, 177, 160, 0.744);
+   border-radius: 10px;
+   margin: 50px;
+   padding: 10px;
+}
+
+#contactplante {
+   background-color: rgba(160, 149, 133, 0.735);
+   border-radius: 10px;
+   margin: 50px;
+   padding: 20px;
+}
+
+
+
+/*galerie*/
+#galeriecarou {
+   padding-bottom: 125px;
+   height: 100vh;
+   width: 100%;
+}
+
+#caroussel {
+   display: flex;
+   margin: auto;
+}
+
+#caroussel {
+   width: 400px;
+   height: 600px;
+   overflow: hidden;
+}
+
+.images {
+   display: flex;
+   animation-duration: 25s;
+   animation-name: mesimages;
+   animation-iteration-count: infinite;
+   align-items: center;
+}
+
+@keyframes mesimages {
+   0% {
+      transform: translateX(0);
+   }
+
+   20% {
+      transform: translateX(-400px);
+   }
+
+   40% {
+      transform: translateX(-800px);
+   }
+
+   60% {
+      transform: translateX(-1200px);
+   }
+
+   80% {
+      transform: translateX(-1600px);
+   }
+
+   100% {
+      transform: translateX(-2000px);
+   }
+}
+
+/*qui suis je*/
+
+#quisuisje {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background: url(assets/bg2.jpg);
+   background-size: cover;
+   height: 140vh;
+   width: 100%;
+}
+
+#textqui P {
+   display: flex;
+   align-items: center;
+   font-size: 1.1em;
+   font-family: 'Kalam', sans-serif;
+   margin-left: 230px;
+   height: 570px;
+   width: 450px;
+
+}
+
+#textqui q {
+   display: flex;
+   padding: 20px;
+   padding-bottom: 85px;
+   font-size: 1em;
+   font-family: 'Kalam', sans-serif;
+   margin-left: 230px;
+   width: 440px;
+}
+
+#ordiplant {
+   display: flex;
+   flex-wrap: initial;
+   flex-direction: column;
+   padding: 85px 20%;
+}
+
+.imgquisuisje img {
+   border-radius: 10%;
+   box-shadow: 2px 6px 4px 6px rgba(92, 92, 92, 0.646);
+}
+
+/*contact*/
+footer {
+   background: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, #E4CDA7 100%);
+   padding: 20px 0 10px 0;
+   text-align: center;
+}
+
+form {
+   margin: 0 auto;
+   max-width: 900px;
+}
+
+input,
+textarea,
+button {
+   border: none;
+   width: 55%;
+   padding: 15px 10px;
+   margin: 1px 0;
+   font-size: 1.2em;
+   font-family: "font1", sans-serif;
+   border-radius: 8px;
+}
+
+textarea {
+   height: 120px;
+}
+
+button {
+   font-size: 1.5em;
+   background-color: #C3B091;
+}
+
+button:hover {
+   background-color: hsl(90, 36%, 62%);
+   color: rgb(58, 47, 26);
+   cursor: pointer;
+   transition: 0.6s ease-in-out;
+}
+
+#troisiemetrait {
+   height: 1px;
+   width: 50%;
+   background-color: black;
+   margin: 60px auto;
+}
+
+#copyrighteticons {
+   display: flex;
+   margin-bottom: 20px;
+   padding: 0 10%;
+}
+
+#copyright {
+   width: 50%;
+   text-align: left;
+   color: #000000;
+}
